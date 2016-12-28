@@ -1,4 +1,4 @@
-# Pimoroni mote-phat Alexa skill
+# Alexa skill for mote-phat by Pimoroni
 
 ## Control Pimoroni's home-lighting kit through Alex Skills kit with a Raspberry Pi
 
