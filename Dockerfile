@@ -15,5 +15,6 @@ WORKDIR /root/alexa/
 COPY mote.py .
 COPY app.py .
 EXPOSE 5000
-
+ENTRYPOINT []
 CMD ["python", "./app.py"]
+
