@@ -95,12 +95,26 @@ On the "Test" tab you can type in sample utterances such as "change to blue" or 
 
 * Talk to your Echo
 
-If everything worked you will be able to talk to your Echo/dot. Simply say "Alexa, ask mote change to red" or "Alexa, ask mote to turn off". For dimming the brightness level you can take inspiration from my Christmas Tree hack's source-code at:
-
-http://blog.alexellis.io/christmas-iot-tree/
+If everything worked you will be able to talk to your Echo/dot. Simply say "Alexa, ask mote change to red" or "Alexa, ask mote to turn off".
 
 * Take it further
 
-Now that you have created your first skill maybe you can think of some ways to extend it or to apply it to other hardware projects? We think dimming the light could be useful and it should be easy to add other colours. If you want to know more about Docker check out the box-out, the included Dockerfile and Alex's beginner tutorials at:
+Now that you have created your first skill maybe you can think of some ways to extend it or to apply it to other hardware projects?
 
-http://blog.alexellis.io/tag/raspberry-pi/
+We think dimming the light could be useful and it should be easy to add other colours. If you want to know more about Docker check out the box-out, the included Dockerfile and Alex's beginner tutorials at: http://blog.alexellis.io/tag/raspberry-pi/
+
+If you have questions, comments or suggestions please get in touch on Twitter [@alexellisuk](https://twitter.com/@alexellisuk).
+
+**Add new utterances**
+
+You can create other ways of invoking the code by editing speechAsssets/sampleUtterances.txt
+
+**Extending the skill's code**
+
+The skill is written in Python so you will need to change app.py and/or mote.py.
+
+To implement an optional brightness level you could take inspiration from my Christmas Tree hack's source-code: http://blog.alexellis.io/christmas-iot-tree/
+
+**Create a web test page**
+
+You could also create a test-page for the device, this could be useful if you do not have an Alexa device yet or want to control the lights from another room. The code is written in Python with the Flask library providing a web-server and HTML templating. My pyPlaylist project gives an example of serving up a small Angular app: https://github.com/alexellis/pyPlaylist/
