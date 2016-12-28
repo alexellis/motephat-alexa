@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "ChangeColourIntent",
+      "slots": [
+        {
+          "name": "Colour",
+          "type": "MoteColour"
+        }
+      ]
+    },
+    {
+      "intent": "TurnOffIntent"
+    }
+  ]
+}
