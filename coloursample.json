@@ -1,0 +1,29 @@
+  {
+  "session": {
+    "sessionId": "SessionId.c637fce1-7663-423c-92db-c3e2c8f66e2e",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7a32c53b-d714-45ed-b955-6610221b76e0"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AFBJBANVEBGX3ETJXMAQKRNARCCQBBMLRFOKVDUHGL2ITUVQFHWULRRXEMMTJNWA6INOFDNJSFF4QYSW7J7FWGMVFHUOVFUHUEHLNROJTV2MYKM7BYNYN2UAZPWFXD5IEZ3AZHC7JD6LTZMLO3J5Y4ATKDQUH73OFC5BAXJ7W3TEGAOACDZ4JGCCSIA6UYMTYYIIYTRTTNEH7AQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.74f485a1-6bc5-4ecf-9e50-12b6e652cfb0",
+    "locale": "en-GB",
+    "timestamp": "2016-12-28T11:03:28Z",
+    "intent": {
+      "name": "ChangeColourIntent",
+      "slots": {
+        "Colour": {
+          "name": "Colour",
+          "value": "red"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

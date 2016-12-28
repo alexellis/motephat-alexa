@@ -1,0 +1,24 @@
+{
+  "session": {
+    "sessionId": "SessionId.815995d0-293c-4983-bc32-1f1e469d5fab",
+    "application": {
+      "applicationId": "amzn1.ask.skill.7a32c53b-d714-45ed-b955-6610221b76e0"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AFBJBANVEBGX3ETJXMAQKRNARCCQBBMLRFOKVDUHGL2ITUVQFHWULRRXEMMTJNWA6INOFDNJSFF4QYSW7J7FWGMVFHUOVFUHUEHLNROJTV2MYKM7BYNYN2UAZPWFXD5IEZ3AZHC7JD6LTZMLO3J5Y4ATKDQUH73OFC5BAXJ7W3TEGAOACDZ4JGCCSIA6UYMTYYIIYTRTTNEH7AQ"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.745661fc-fc31-484f-993d-dc732d085829",
+    "locale": "en-GB",
+    "timestamp": "2016-12-28T11:01:34Z",
+    "intent": {
+      "name": "TurnOffIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
