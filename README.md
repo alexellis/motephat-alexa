@@ -6,6 +6,8 @@ This Alexa skill provides utterances for changing the colour of our LEDs like "A
 
 > This is an abridged version of a 2-page tutorial commissioned by Linux User and Developer Magazine. For the full experience subscribe to the publication or electronic PDF at https://linuxuser.co.uk/
 
+![Mote](https://cdn.shopify.com/s/files/1/0174/1800/products/mote-6_1_large.jpg?v=1473845101)
+
 ## Resources:
 
 * [mote-phat](https://shop.pimoroni.com/products/mote-phat) product page
