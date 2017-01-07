@@ -31,12 +31,16 @@ Download and unzip ngrok for Linux ARM into `/usr/bin` https://ngrok.com/downloa
 
 * Install Docker
 
-Docker is a packaging and runtime system that allows us to build, ship and run software easily. Run these two commands then reconnect over `ssh`.
+Docker is a packaging and runtime system that allows us to build, ship and run software easily. I've used it in this tutorial so that you don't have to manually configure your Raspberry Pi with the libraries and runtimes needed for the project. If you want to bypass Docker then check out the [Dockerfile](https://github.com/alexellis/motephat-alexa/blob/master/Dockerfile) and run the steps in manually with bash.
+
+Run these two commands, then logout and log in again. This is so that the `pi` user's access to Docker can be refreshed.
 
 ```
 # curl -sSL get.docker.com | sh
 # sudo usermod pi -aG docker
 ```
+
+You can read the contents of the [Dockerfile here](https://github.com/alexellis/motephat-alexa/blob/master/Dockerfile).
 
 Now clone the Github repository and build the Docker image (this will take some time):
 
