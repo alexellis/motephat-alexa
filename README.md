@@ -59,15 +59,14 @@ Our project's code is packaged with all its dependencies into a single container
 ```
 # docker run --name mote --privileged -d -p 5000:5000 alexamote
 # ngrok http 5000 > /dev/null &
-# curl localhost:4040/api/tunnels
+# curl localhost:4040/api/tunnels | jq -r ".tunnels[1].public_url "
 ```
 
-Take note of the `public_url` value (https) returned from `curl`. This changes every time the ngrok process starts.
+Take note of your `public_url` beginning with https. This changes every time the ngrok process starts.
 
-If you want to stop the process later on you can type in `docker ps` or `docker rm -f mote`.
+If you want to stop the mote-phat process later on you can type in `docker rm -f mote` or `docker ps` to view its status.
 
 * Test the endpoint
-
 
 Once you have your HTTPs URL from `ngrok` then you can test everything out by sending in a request just like the one the Alexa SDK creates. We have captured two samples and saved them in the Git repository.
 
